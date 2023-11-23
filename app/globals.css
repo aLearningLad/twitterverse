@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar {
+  background-color: transparent;
+  border-radius: 12px;
+  width: 0px;
+}
+
+.premiumShadow {
+  box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.3);
+}
+
+.menuShadow {
+  box-shadow: 1px 1px 6px rgba(200, 200, 200, 0.4);
+}
+.msgShadow {
+  box-shadow: 2px -3px 18px rgba(100, 100, 100, 0.4);
+}
+
+.subButton {
+  animation: subButtonPulse 1s linear infinite;
+}
+
+@keyframes subButtonPulse {
+  0% {
+    background-color: black;
+    color: white;
+    transform: scale(105%);
+    transition: 0.4 ease-in-out;
+  }
+
+  50% {
+    background-color: #1da1f2;
+    color: white;
+  }
+
+  100% {
+    background-color: black;
+    color: white;
+  }
+}
+
+@keyframes subButtonHover {
+  0% {
+    background-color: #1da1f2;
+    color: white;
+    transform: scale(95%);
+    transition: 0.4 ease-in-out;
+  }
+
+  100% {
+    background-color: #1da1f2;
+    color: white;
+    transform: scale(95%);
+  }
+}
+
+.subButton:hover {
+  animation: subButtonHover 0.7s linear infinite;
+}
+
+.seeMoreAnimated {
+  animation: bouncyText 1s linear infinite;
+}
+
+@keyframes bouncyText {
+  0% {
+    transform: translateY(0%);
+    color: black;
+  }
+
+  50% {
+    transform: translateY(20%);
+    transition: 0.7s ease-in-out;
+    color: #1da1f2;
+  }
+
+  100% {
+    transform: translateY(0%);
+    color: black;
+  }
+}

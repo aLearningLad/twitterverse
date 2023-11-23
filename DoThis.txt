@@ -1,0 +1,21 @@
+1. *****CURRENT ===> Implement Profile Pages for left menu bar (massive job)
+
+2. DONE! ===> Implement "For you" & "Following" tab selections ("Following" can swwitch to a message saying 'tweets cannot be displayed at this time, no followers' or something.)
+
+3. DONE! ===> Implement trends for you with error message saying "Unable to display {trend Name here from state}, servers seem to be down because we haven't paid our bills. Please try again later."
+
+4. DONE! ===> Implement subscribe section with 3 quirky questions eg. (1) Is Lionel Messi the greatest ever? (2) Do you promsie to not tweet harmful things nor spread bad energy? (3) Does pineapple belong on pizza?
+
+5. DONE! ===> Implement add created tweet to timeline.
+
+6. Implement via setinterval, new tweets from other users to load onto screen
+
+7. DONE ===>Implement open a single tweet, view comments. Comments randomized from array.
+
+8. DONE ===> Implement like functionality & change icon color to red
+
+9. DONE! ===> Implement verified symbol for verified accounts
+
+10. In create tweet, create modal that appears when trying to upload video or image, with message like "To keep this app build as small as possible, we have disabled media upload. This will be possible in an upcoming build inspired by this twiiter build. Keep track of it here: **Link to thato's nook blog page**
+
+11. Use that package that shows large numbers neatly. Used it in Cryptoverse
