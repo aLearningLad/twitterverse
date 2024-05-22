@@ -1,8 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Hi there, fellow dev!
 
-## Getting Started
+This was a hobby project. I tried to mimic Twitter's UI and basic functionality such as tweeting, viewing community tweets, news sections, applying for premium membership; and storing, altering and using state across different components to manipulate the UI. 
 
-First, run the development server:
+This is a bare-bones build. No APIs nor external data are used, and it is without Auth nor backend. All media are held within the assets folder: everything is self-contained within this repo.
+
+To my fellow leaners and tinkerers, although such a project should (ideally) be nowhere to be found on your portfolio (EVERYBODY and their mother builds clones for their portfolio! You need to innovate far beyond clones to impress potential employers), it is a good learning project. In my case, as I hope it will be for everyone else, it was really a great way to learn how to fiddle with code to get it looking and working somewhat like the real thing. 
+
+I encourage anybody keen to do so, to clone this repo and go through the code, get the gist of the main functionality such as using Zustand and calling for state snippets from various components, conditional rendering and using various CSS and sizing methods. 
+
+I had a lot of fun building this little project. I hope you, reader, do too as you try it out.
+
+
+
+## Time to tinker -> Getting Started
+
+Running the app is straightforward. Depending on your machine, either run: 
 
 ```bash
 npm run dev
@@ -14,23 +26,8 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## About the stack -> Next.js
+This app is written in Typescript. I used TailwindCSS for styling, and used downloaded images and videos for the media feeds.
+I also used the React Icons library. 
+No data is fetched externally: all 'Tweets' are my creation.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
