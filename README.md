@@ -28,6 +28,6 @@ bun dev
 
 ## About the stack -> Next.js
 This app is written in Typescript. I used TailwindCSS for styling, and used downloaded images and videos for the media feeds.
-I also used the React Icons library. 
-No data is fetched externally: all 'Tweets' are my creation.
+I also used the React Icons library, and utilized my trusty lightweight friend Zustand for global state management.
+No data is fetched externally: all 'Tweets' are entirely from my imagination.
 
