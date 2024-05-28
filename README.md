@@ -1,5 +1,9 @@
 Hi there, fellow dev!
 
+(https://github.com/aLearningLad/twitterverse/blob/master/twitter2.png)
+
+
+
 This was a hobby project. I tried to mimic Twitter's UI and basic functionality such as tweeting, viewing community tweets, news sections, applying for premium membership; and storing, altering and using state across different components to manipulate the UI. 
 
 It is a bare-bones build. No APIs nor external data are used, and it is without Auth nor backend. All media are held within the assets folder: everything is self-contained within this repo.
