@@ -14,7 +14,7 @@ I had a lot of fun building this little project. I hope you, reader, do too as y
 
 
 
-## Time to tinker -> Getting Started :computer:
+## Time to tinker -> Getting Started :computer: 💡
 
 Running the app is straightforward. Depending on your machine, either run: 
 
