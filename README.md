@@ -1,4 +1,4 @@
-### Hi there, fellow dev! :wave:
+### Hi there, fellow dev! :wave: 👋
 
 ![Twitter Image](https://raw.githubusercontent.com/aLearningLad/twitterverse/master/twitter2.png)
 
